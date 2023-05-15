@@ -1,0 +1,27 @@
+{
+  "name": "Browser-Dropdown",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "puppeteer": "^13.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/Browser-Dropdown",
+    "id": 201207856
+  }
+}
