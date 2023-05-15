@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: rgba(39, 81, 221, 0.918);
+    text-align: center;
+    color: white;
+}
+
+h1.header-title {
+    font-size: 2.5rem;
+    padding: 20px;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(133, 170, 211, 0.76);
+    text-align: center;
+    padding: 10px;
+}
+
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li.nav-item {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  rgba(133, 170, 211, 0.76);
+    color: black;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 0.8rem;
+    top: calc(100% + 10px);
+    left: 0;
+}
+
+.dropdown-content li {
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+
+
